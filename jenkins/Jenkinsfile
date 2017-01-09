@@ -28,10 +28,10 @@ node {
         } else if (trigger == "build") {
             stage "Build RPMS"
                 echo "Starting Build"
-                # TODO this is not yet implemented
+                // TODO this is not yet implemented
 						stage "Deploy Updates"
 								echo "Deploying updated RPMs"
-                # TODO this is not yet implemented
+                // TODO this is not yet implemented
         } else {
             echo "Trigger ${trigger} not recognized"
             currentBuild.result = 'FAILURE'
